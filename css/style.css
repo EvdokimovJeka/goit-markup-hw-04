@@ -221,6 +221,8 @@ body {
   color: var(--primary-text-color);
 }
 
+
+
 .features-icon-list {
   display: flex;
   gap: 30px;
@@ -229,7 +231,11 @@ body {
 .features-icon-item {
   background-color: #f5f4fa;
   border-radius: 4px;
-  padding: 25px 100px;
+  width: 270px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 30px;
 }
 
@@ -350,9 +356,11 @@ body {
   width: 100%;
   height: 100%;
   display: block;
-  padding: 16px 32px 16px 32px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .clients-logo {
@@ -365,7 +373,7 @@ body {
 }
 
 .clients-logo-link:hover > .clients-logo,
-.clients-logo-link:focus > .accent-logo {
+.clients-logo-link:focus > .clients-logo {
   fill: var(--accent-color);
 }
 
